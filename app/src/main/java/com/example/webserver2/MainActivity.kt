@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             }
             routing {
                 get("/") {
-                    call.respond(mapOf("message" to "Hello Android User"))
+                    call.respond(mapOf("message" to "Hello Android User!"))
                 }
                 get("/getData") {
                     call.respond(mapOf("message" to "Fetching data..."))
